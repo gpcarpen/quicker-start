@@ -64,15 +64,26 @@ The goal of this guide is to get new users through the validate software pipelin
 
 - To submit the job, from your working directory where the JSON file is located, enter `jobs-submit -F fastlmm-job.json`
  
-- If all goes well you will get a response along the lines of Job [job_id] successfully submitted
+- If all goes well you will get a response along the lines of `Job [job_id] successfully submitted`
 
-- You can check the status of this job by copying the job id and entering jobs-status followed by the job id
+- You can check the status of this job by copying the job id and entering `jobs-status jobidnumber`
 
-- Once the job is completed you can get the output files by entering `jobs-output` followed by the job id
+- Once the job is completed you can get the output files by entering `jobs-output jobidnumber`
 
 - There should be a file with the output parameter as its prefix
 
 - You can download this file by entering `jobs-output --download --path [file name] [job id]` 
+
+##Winnow
+- The required files for winnow are the Known Truth file and the output from a GWAS tool (FastLMM in our case)
+
+- Once you download the fastlmm output, upload it to a new location in your DE 
+-     files-upload -S data.iplantcollaborative.org -F [fastlmm output which should now be local] swb5075/data
+
+- use wget to grab the winnow example skeleteon
+`wget https://www.dropbox.com/s/pnhebgvx18mh6f5/winnow-job.json`
+
+
 
 
 
