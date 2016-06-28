@@ -37,5 +37,6 @@ The goal of this guide is to get new users through the validate software pipelin
   
 
 # Example workflow
-- From a working directory download this FastLMM job skeleton
-- i.e. wget https://www.dropbox.com/s/ij43c5qwsk6hakf/fastlmm-job.json
+- From a working directory download the FastLMM job skeleton with the following command
+
+-       wget https://www.dropbox.com/s/ij43c5qwsk6hakf/fastlmm-job.json
