@@ -44,7 +44,7 @@ The goal of this guide is to get new users through the validate software pipelin
 
 - jobName doesnt really matter, but software name has to be a valid agave app. 
 
-- You can list all valide agave apps with the command apps-list. 
+- You can list all valide agave apps with the command `apps-list`. 
 
 - RequestedTime is self explanatory, archive will save the output to your discovery environment (DE) folder.
 
@@ -72,9 +72,7 @@ The goal of this guide is to get new users through the validate software pipelin
 
 - There should be a file with the output parameter as its prefix
 
-- You can download this file by entering `jobs-output —download —path [file name] [job id]
-
-- `jobs-output --download --path [file name] [job id]` (edited) 
+- You can download this file by entering `jobs-output --download --path [file name] [job id]` 
 
 
 
