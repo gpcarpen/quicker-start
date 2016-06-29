@@ -1,9 +1,9 @@
 #Frequently used terminology
 
-Stampede
-Allocation
-TACC
-Cyverse
-Agave
-SNP
-API
+- Stampede
+- Allocation
+- TACC
+- Cyverse
+- Agave
+- SNP
+- API
