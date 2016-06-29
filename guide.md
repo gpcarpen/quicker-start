@@ -1,3 +1,10 @@
+> Estimated time to complete this tutorial is ~2 hours
+
+> Prior knowledge needed - Basic bash command familiarity, terminal use familiarity
+
+> Tools needed - Computer, internet access
+
+
 # Quick(er) Guide
 
 The goal of this guide is to get new users through the validate software pipeline so that they can begin running the workflow more quickly. 
