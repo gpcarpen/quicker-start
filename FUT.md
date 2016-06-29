@@ -7,3 +7,14 @@
 - Agave
 - SNP
 - API
+- CLI
+- Terminal
+- Auth-tokens
+- Node
+- IRODS
+- GWAS
+- ICommands
+- Xsede
+
+--notes--
+---Group these based on organizations/
