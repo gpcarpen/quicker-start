@@ -10,10 +10,11 @@ The goal of this guide is to get new users through the validate software pipelin
         B. Winnow
 
 
-# Installing Agave
+# Installing Agave 
 
   - Setup an CyVerse (iPlant) account. https://user.cyverse.org/
-  - From terminal type 
+  - We will now install the Agave API into the home directoy,
+  - From your terminal type: 
   
   -     git clone https://github.com/iPlantCollaborativeOpenSource/cyverse-sdk.git
   
@@ -28,12 +29,15 @@ The goal of this guide is to get new users through the validate software pipelin
   -     source ~/.bashrc
   
   -     tenants-init -t iplantc.org
+
+  - These Last two commands will require a CyVerse username and password
   
   -     clients-create -S -v -N my_client -D "Client used for app development"
   
   -     auth-tokens-create -S  
-  
-  - Last two need CyVerse username and password
+
+  - At this point you can check to make sure that the agave API has been installed by running the commmand `apps-list`. If all worked correctly then this command should list all publicly available apps.
+  - You can now either run an app from this list, or you can continue with the next section to see what an example workflow may look like. 
   
 
 # Example workflow
