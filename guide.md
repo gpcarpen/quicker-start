@@ -37,6 +37,7 @@ The goal of this guide is to get new users through the validate software pipelin
   -     auth-tokens-create -S  
 
   - At this point you can check to make sure that the agave API has been installed by running the commmand `apps-list`. If all worked correctly then this command should list all publicly available apps.
+  - If everything is installed correctly you can move forward from this point in the future without having to run the above setup.
   - You can now either run an app from this list, or you can continue with the next section to see what an example workflow may look like. 
   
 
