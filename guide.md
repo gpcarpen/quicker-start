@@ -20,7 +20,7 @@ The goal of this guide is to get new users through the validate software pipelin
 # Installing Agave 
 
   - Setup an CyVerse (iPlant) account. https://user.cyverse.org/
-  - We will now install the Agave API into the home directoy,
+  - We will now install the Agave API into the home directory,
   - From your terminal type: 
   
   -     git clone https://github.com/iPlantCollaborativeOpenSource/cyverse-sdk.git
@@ -34,6 +34,7 @@ The goal of this guide is to get new users through the validate software pipelin
   -     echo "PATH=\$PATH:\$HOME/cyverse-cli/bin" >> ~/.bashrc
  
   -     source ~/.bashrc
+  -     (note) this is the default profile for linux if you are one a mac it is .bash_profile
   
   -     tenants-init -t iplantc.org
 
@@ -42,6 +43,7 @@ The goal of this guide is to get new users through the validate software pipelin
   -     clients-create -S -v -N my_client -D "Client used for app development"
   
   -     auth-tokens-create -S  
+  -     (note) if asked for an authentication token, use the command "auth-tokens-refresh -S"
 
   - At this point you can check to make sure that the agave API has been installed by running the commmand `apps-list`. If all worked correctly then this command should list all publicly available apps.
   - If everything is installed correctly you can move forward from this point in the future without having to run the above setup.
@@ -53,6 +55,7 @@ The goal of this guide is to get new users through the validate software pipelin
 - From a working directory download the FastLMM job skeleton with the following command
 
 -       wget https://www.dropbox.com/s/ij43c5qwsk6hakf/fastlmm-job.json
+-       (note) this is not installed by default on macs, this can be downloaded by visiting this url
 
 - jobName doesnt really matter, but software name has to be a valid agave app. 
 
@@ -94,9 +97,3 @@ The goal of this guide is to get new users through the validate software pipelin
 
 - use wget to grab the winnow example skeleteon
 `wget https://www.dropbox.com/s/pnhebgvx18mh6f5/winnow-job.json`
-
-
-
-
-
-
