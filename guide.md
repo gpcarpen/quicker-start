@@ -57,6 +57,12 @@ The goal of this guide is to get new users through the validate software pipelin
 -       wget https://www.dropbox.com/s/ij43c5qwsk6hakf/fastlmm-job.json
 -       (note) this is not installed by default on macs, this can be downloaded by visiting this url
 
+- Open the fastlmm-job.json file with the command 
+
+-       VIM fastlmm-job.json
+
+- Within the json file follow the next directions to edit for your own purposes.
+
 - jobName doesnt really matter, but software name has to be a valid agave app. 
 
 - You can list all valide agave apps with the command `apps-list`. 
