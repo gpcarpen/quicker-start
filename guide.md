@@ -40,6 +40,8 @@ The goal of this guide is to get new users through the validate software pipelin
 
   - These Last two commands will require a CyVerse username and password
   
+  - NEED INFO FOR ACCESSING AND UTILIZING VIA AN ATMOSPHERE IMAGE -
+  
   -     clients-create -S -v -N my_client -D "Client used for app development"
   
   -     auth-tokens-create -S  
