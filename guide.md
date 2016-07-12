@@ -49,6 +49,17 @@ The goal of this guide is to get new users through the validate software pipelin
   - If everything is installed correctly you can move forward from this point in the future without having to run the above setup.
   - You can now either run an app from this list, or you can continue with the next section to see what an example workflow may look like. 
   
+###Note: If you are getting errors when attempting to create tokens for agave
+  -   go to https://agave.iplantc.org/store/?requestedPage=/store/site/pages/subscriptions.jag
+ 
+  -   click on "my applicaitons" then scroll down to the bottom, you will see a line for active tokens, click the delete button
+  -   go back into your terminal and enter the following commands
+ 
+  -       clients-create -S -v -N my_client -D "Client used for app development"
+  
+  -       auth-tokens-create -S
+  
+  -   This should recreate the agave token and allow you to continue with the workflow
 
 # Example workflow
 ##FastLMM
