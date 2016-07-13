@@ -105,6 +105,7 @@ The goal of this guide is to get new users through the validate software pipelin
 - There should be a file with the output parameter as its prefix
 
 - You can download this file by entering `jobs-output --download --path [file name] [job id]` 
+  -   The path refers to where it is within the Discovery Environment and not where it is within the current directory. The Download        with automatically save it to the current directory.  
 
 ##Winnow
 - The required files for winnow are the Known Truth file and the output from a GWAS tool (FastLMM in our case)
