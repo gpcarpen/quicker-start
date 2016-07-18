@@ -1,12 +1,12 @@
->> Prerequisites
+> Prerequisites
 
->> Stampede Files:
+> Stampede Files:
 
->>            a. Validate
+>            a. Validate
        
->>            b. BED, BIM, FAM, and	Phenotype files	
+>            b. BED, BIM, FAM, and	Phenotype files	
        
->>            c. Known	Truth	File
+>            c. Known	Truth	File
 
 # Job Launcher,	FastLMM,	and	Winnow
 
@@ -32,10 +32,10 @@ $HOME/Validate-Master-master/CurrentReleaseStable/Winnow_09/winnow.py
 ### Setting	Up	the	Parametric	Launcher	Job	File
 - The	parametric	launcher	uses	a	paramlist	file	(text	file	with	no	extension)	to	execute	
 jobs.	Each	line	in	this	file	represents	a	task.
-1. Create	a	paramlist	file,	the	command	“vim	paramlist”	creates	the	file	and	opens	the	VIM	
+- Create	a	paramlist	file,	the	command	“vim	paramlist”	creates	the	file	and	opens	the	VIM	
 editor.	(Enter	“i”	to	enter	insert	mode,	“ESC”	to	exit	insert	mode,	and	“:wq” to	save	and	
 exit	VIM)
-2. On	each	line,	enter	the	fastlmm	command	pertaining	to	one	of	the	datasets.	
+- On	each	line,	enter	the	fastlmm	command	pertaining	to	one	of	the	datasets.	
 
 My	first	line	is:
 
@@ -53,7 +53,7 @@ $HOME/syn/eight/PheHasStruct_008_Trait_H_06_GenotypeData_NoMissing	-pheno
 $HOME/syn/eight/PheHasStruct_008_Trait_H_06_GenotypeData_NoMissing.fampheno.txt	-out	
 $HOME/syn/output/eightOut.txt”
 
-3. Click the	escaped	key	followed by	“:wq” to save and exit VIM.	
+- Click the	escap key followed by “:wq” to save and exit VIM.	
 
 
 ### Setting	Up	the	Winnow	Job	File
