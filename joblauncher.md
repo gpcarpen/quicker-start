@@ -53,7 +53,7 @@ $HOME/syn/eight/PheHasStruct_008_Trait_H_06_GenotypeData_NoMissing	-pheno
 $HOME/syn/eight/PheHasStruct_008_Trait_H_06_GenotypeData_NoMissing.fampheno.txt	-out	
 $HOME/syn/output/eightOut.txt”
 
-- Click the	escap key followed by “:wq” to save and exit VIM.	
+- Click the	escape key followed by “:wq” to save and exit VIM.	
 
 
 ### Setting	Up	the	Winnow	Job	File
@@ -71,9 +71,10 @@ file	for	SLURM.
 -      #SBTACH –p normal
 
 -      python $HOME/Validate-Master-master/CurrentReleaseStable/Winnow_09/winnow.py	--Folder
--      $HOME/syn/output --Class $HOME/syn/SynTruth06.txt --Snp SNP --Score Pvalue --filename 
--      $HOME/syn/winnow_output --kttype OTE --seper tab
 
+-      $HOME/syn/output --Class $HOME/syn/SynTruth06.txt --Snp SNP --Score Pvalue --filename 
+
+-      $HOME/syn/winnow_output --kttype OTE --seper tab
 
 - --python	…	…	winnow.py	is	the	command	to	run	winnow
 - --Folder	___	is	the	folder	containing	the	FastLMM	output	as	noted	above.	
