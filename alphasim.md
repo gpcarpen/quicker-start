@@ -22,7 +22,7 @@
 "requestedTime": "05:00:00",
 "archive": true,
     "inputs":{
-        "specificationFile": "agave://data.iplantcollaborative.org/USERNAME/ALPHASIM_SPEC_PATH
+        "specificationFile": "agave://data.iplantcollaborative.org/USERNAME/ALPHASIM_SPEC_PATH"
     }
 }
 ```
