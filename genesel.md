@@ -10,10 +10,10 @@
 ##Locating the parameter/input files and running Gensel
 -   To run the software you need one parameter file (.inp) and three input files (.gs, .newbin, .192)
 
->     -All of these files can be found in the Discovery Envrionment following the path
->     iplant/home/shared/iplantcollaborative/example_data/gensel/
+>  -All of these files can be found in the Discovery Envrionment following the path
+>  iplant/home/shared/iplantcollaborative/example_data/gensel/
 
->     -For more information on these inputs read the documentaiton listed above
+>  -For more information on these inputs read the documentaiton listed above
 
 -   Save the following as a JSON file (This can be save locally as long as you have the Agave CLI installed) 
 
