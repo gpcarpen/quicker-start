@@ -51,11 +51,11 @@ i.e. jobs-output --download --path SamIsAwesome.txt 18924612870-12804612
 
 -   You will download your outputs to your local computer from the discovery environment with the following commands
 ```
-`jobs-output --download --path AlphaSim/Selection/SelectionFolder1/SnpSolutions.txt [includeyourjobidhere]`
-`jobs-output --download --path AlphaSim/SimulatedData/Gender.txt [includeyourjobidhere]`
-`jobs-output --download --path AlphaSim/SimulatedData/PedigreeTbvTdvTpv.txt [includeyourjobidhere]`
-`jobs-output --download --path AlphaSim/SimulatedData/AllIndividualSnpChips/Chip1Genotype.txt [includeyourjobidhere]`
-`jobs-output --download --path AlphaSim/Chromosomes/Chromosome1/Chip1SnpInformation.txt [includeyourjobidhere]`
+jobs-output --download --path AlphaSim/Selection/SelectionFolder1/SnpSolutions.txt [includeyourjobidhere]
+jobs-output --download --path AlphaSim/SimulatedData/Gender.txt [includeyourjobidhere]
+jobs-output --download --path AlphaSim/SimulatedData/PedigreeTbvTdvTpv.txt [includeyourjobidhere]
+jobs-output --download --path AlphaSim/SimulatedData/AllIndividualSnpChips/Chip1Genotype.txt [includeyourjobidhere]
+jobs-output --download --path AlphaSim/Chromosomes/Chromosome1/Chip1SnpInformation.txt [includeyourjobidhere]
 ```
 
 -   Download the merger.py from the github repository here https://github.com/CyVerse-Validate/Validate/tree/master/CurrentReleaseStable/Util_1/Merger
