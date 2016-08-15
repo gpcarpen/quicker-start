@@ -9,6 +9,8 @@
 
 >>  Qxpak example output http://mirrors.iplantcollaborative.org/browse/iplant/home/shared/iplantcollaborative/example_data/qxpak/output
 
+>> Qxpak dependecies https://github.com/UNCW-iPlant/Stampede-Files/tree/master/GWASTools/qxpak-5.05
+
 
 ## To Begin, Command Line Usage
 -   Normally in QxPak you would alter the parameter file so that you call specific input files for each data analysis fun. This tutorial is written around a wrapper script that was written to make the process of data analysis more easy to do with many different inputs. Instead of having to alter the parameter file each time, you can simply changes the inputs within the command line. 
@@ -66,6 +68,7 @@
 
 - The transposed format is appropriate when there are many more markers than individuals. In this format, the first row is a list of individual codes, and successive rows contain: SNP_name, chr_number, ind1_allele1, ind1_allele2, ind2_allele1, ind2_allele2, etc. Unknown markers should be coded as 0, and chromosomes must have numbers rather than names; markers should be arranged by chromosome 1, 2, etc.
 
+## Optional inputs
 ### User-Defined Covariance Matrix Files
 
 - One or two files can be included to allow for the including of random effects distributed as N(0,V), where V can be any positive definite matrix which is stored in the file. The matrix is then invertyed to obtain random effects predictions, and the inverse can also be included to save computation. The parameter file must be modified appropriately to apply the effects to specific columns.
@@ -76,7 +79,7 @@
 
 - Contains known haplotypes if any. The first record contains the name of the chromosome. Successive records include individual, order of markers where phases known. If several chromosomes are analyzed, the format should be repeated for each.
  
-## Output Files
+## Explanation of Output Files
 
 ### q.0
 
