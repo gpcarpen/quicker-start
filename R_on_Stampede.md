@@ -5,7 +5,13 @@
 
 >  Useful resources
 >   - Discovery Environment https://de.iplantcollaborative.org/de/
-
+>   - Webinar on, R and using R on stampede; 
+>   - Intro to R and R studio (first 1.5 hours) https://www.youtube.com/watch?v=2kPPgPmFu6o
+>   - Performing some statistical tests and modeling using R (last~45 minutes) https://www.youtube.com/watch?v=2kPPgPmFu6o
+>   - TACC resources and functionality (first hour) https://www.youtube.com/watch?v=6GUbWLiLPa4
+>   - Running R jobs, and using R studio via TACC (last ~45 minutes) https://www.youtube.com/watch?v=6GUbWLiLPa4
+ 
+ 
 ## Loading and installing the version of R is the base version of R
 - Login to your stampede allocation username@stampede.tacc.utexas.edu
 - Enter the following commands which will load, save, and then allow you to run R
